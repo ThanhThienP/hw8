@@ -46,6 +46,7 @@
                 <configuration>
                     <includes>
                         <include>bridge/**/*.java</include>
+                        <include>decorator/**/*.java</include>
                     </includes>
                 </configuration>
             </plugin>
