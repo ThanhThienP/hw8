@@ -25,5 +25,15 @@ public class Driver {
         btcSms.processPayment(33.33);
         Payment btcEmail = new BitcoinPayment(email);
         btcEmail.processPayment(66.66);
+
+        System.out.println();
+
+        NotificationChannel push = new PushChannel();
+
+        Payment btcPush = new BitcoinPayment(push);
+        btcPush.processPayment(2000);
+        Payment cashPush = new CashOnDeliveryPayment(push);
+        cashPush.processPayment(333.33);
+
     }
 }
