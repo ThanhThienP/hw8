@@ -8,7 +8,7 @@ public class Cheese extends ToppingDecorator {
 
     @Override
     public String getFoodDescription() {
-        return foodItem.getFoodDescription() + ", Cheese";
+        return foodItem.getFoodDescription() + " + Cheese";
     }
 
     @Override
