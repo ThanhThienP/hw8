@@ -21,7 +21,6 @@ public class Driver {
         order.addItem(cheeseBurger);
         order.addItem(onionFries);
         order.addItem(hotDogWithKetchup);
-        order.addItem(new FrenchFries());
         order.printSummary();
 
         System.out.println();
